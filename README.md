@@ -1,5 +1,7 @@
 # Improving Maps in R with Cotextual Landmarks 
 
+## Run this repository in a web browser using Binder. Push the button >> [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Population-Dynamics-Lab/detailed_mapping/HEAD?urlpath=rstudio)
+
 ### Before
 
 Map of Miami-Dade tracts taken directly from census APIs.
