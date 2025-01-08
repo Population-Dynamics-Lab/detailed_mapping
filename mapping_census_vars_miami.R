@@ -58,6 +58,7 @@ ggsave("images/raw.png", basic_map,  width = 9*.7, height = 10*.7, bg = "white")
 
 # remove water
 mhi_sf <- mhi_raw_sf %>%
+    # Ensure that the threshold doesnt add any unwanted artifacts in the map
     erase_water(area_threshold = 0.2)
 
 # get map tiles adding road context
